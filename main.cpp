@@ -57,12 +57,8 @@ float Rsensor; //Resistance of sensor in K
 
   void loop()
   {
-    Time();
-    Led(); // put your main code here, to run repeatedly:
-  }
 
-  static void Time()
-  {
+
     lcd.setCursor(0, 0);
 
     if (lastSecond != seconds)
@@ -150,11 +146,7 @@ float Rsensor; //Resistance of sensor in K
 
       seconds = secString.toInt();
     }
-  }
   
-
-  static void Led()
-  {
     int sensorValue = analogRead(0);
     Rsensor = (float)(1023 - sensorValue) * 10 / sensorValue;
     if (Rsensor > ThresValue1)
