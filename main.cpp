@@ -15,7 +15,6 @@ const int ledPin2 = 11;
 
 const int ThresValue = 10; //The threshold for which the LED should turn on.
 const int ThresValue1 = 20;
-const int ThresValue2 = 30;
 
 Process date;                // process used to get the date
 int hours, minutes, seconds; // for the results
@@ -154,7 +153,7 @@ float Rsensor; //Resistance of sensor in K
       digitalWrite(ledPin, HIGH);
       digitalWrite(ledPin2, LOW);
     }
-    else if (Rsensor > ThresValue2)
+    else if (Rsensor > ThresValue1)
     {
       digitalWrite(ledPin, HIGH);
       digitalWrite(ledPin2, HIGH);
