@@ -4,8 +4,8 @@
 #define WIFI_SSID "your SSID here"
 #define	WIFI_PASSWORD "your password here"
 
-#define IFTTT_API_KEY "jvU6Y1ffMzHca4opHsEAXdhGXYP2KUdLenWUo2Qs025"
-#define IFTTT_EVENT_NAME "trigger"
+#define IFTTT_API_KEY jvU6Y1ffMzHca4opHsEAXdhGXYP2KUdLenWUo2Qs025
+#define IFTTT_EVENT_NAME trigger
 
 void setup() {
   Serial.begin(115200);
