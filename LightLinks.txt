@@ -1,0 +1,3 @@
+ON/OFF - https://maker.ifttt.com/trigger/trigger/with/key/jvU6Y1ffMzHca4opHsEAXdhGXYP2KUdLenWUo2Qs025
+RED NIGHT LIGHT - https://maker.ifttt.com/trigger/dim/with/key/jvU6Y1ffMzHca4opHsEAXdhGXYP2KUdLenWUo2Qs025
+NORMAL DAY LIGHT - https://maker.ifttt.com/trigger/normal/with/key/jvU6Y1ffMzHca4opHsEAXdhGXYP2KUdLenWUo2Qs025
